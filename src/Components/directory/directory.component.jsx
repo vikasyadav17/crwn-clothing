@@ -6,7 +6,7 @@ import { selectDirectorySections } from '../../redux/directory/directory.selecto
 
 import MenuItem from '../menu-item/menu-item.component';
 
-import './directory.style.scss';
+import './directory.styles.scss';
 
 const Directory = ({ sections }) => (
   <div className='directory-menu'>
